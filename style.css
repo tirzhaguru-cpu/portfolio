@@ -12,8 +12,8 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:20px 60px;
-background:#222;
-color:white;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
 nav ul{
@@ -26,8 +26,8 @@ margin-left:20px;
 }
 
 nav ul li a{
-color:white;
 text-decoration:none;
+color:#333;
 }
 
 
@@ -38,8 +38,6 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:80px;
-background:linear-gradient(120deg,#2980b9,#6dd5fa);
-color:white;
 }
 
 .hero-img img{
@@ -48,11 +46,11 @@ border-radius:10px;
 }
 
 .hero-text span{
-color:yellow;
+color:#ff7a59;
 }
 
 .btn{
-background:#ff9800;
+background:#ff7a59;
 padding:12px 25px;
 border-radius:25px;
 color:white;
@@ -60,11 +58,29 @@ text-decoration:none;
 }
 
 
-/* SECTIONS */
+/* SECTION BOX DESIGN */
 
 section{
 padding:60px;
-text-align:center;
+margin:40px;
+background:white;
+border-radius:14px;
+
+/* light peach border */
+border:1px solid #ffd6cc;
+
+/* soft shadow */
+box-shadow:0 6px 20px rgba(0,0,0,0.08);
+
+transition:0.3s;
+}
+
+
+/* hover effect */
+
+section:hover{
+transform:translateY(-4px);
+box-shadow:0 10px 25px rgba(0,0,0,0.12);
 }
 
 
@@ -77,31 +93,29 @@ flex-wrap:wrap;
 }
 
 .skill-card{
-background:white;
+background:#fff5f0;
 padding:20px;
 margin:10px;
 border-radius:10px;
-box-shadow:0 5px 10px rgba(0,0,0,0.2);
 }
 
 
 /* PROJECTS */
 
 .project-card{
-background:white;
+background:#fff5f0;
 margin:20px auto;
 padding:20px;
 width:60%;
 border-radius:10px;
-box-shadow:0 5px 10px rgba(0,0,0,0.2);
 }
 
 
 /* FOOTER */
 
 footer{
-background:#222;
-color:white;
+background:white;
 text-align:center;
 padding:20px;
+margin-top:40px;
 }
