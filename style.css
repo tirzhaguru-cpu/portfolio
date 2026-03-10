@@ -1,7 +1,7 @@
 body{
 margin:0;
 font-family:Segoe UI;
-background: linear-gradient(135deg,#ffe5d9,#fff1e6,#fde2e4);
+background:#f4f4f4;
 }
 
 
@@ -12,8 +12,8 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:20px 60px;
-background:white;
-box-shadow:0 2px 10px rgba(0,0,0,0.1);
+background:#222;
+color:white;
 }
 
 nav ul{
@@ -26,8 +26,8 @@ margin-left:20px;
 }
 
 nav ul li a{
+color:white;
 text-decoration:none;
-color:#333;
 }
 
 
@@ -38,6 +38,8 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:80px;
+background:linear-gradient(120deg,#2980b9,#6dd5fa);
+color:white;
 }
 
 .hero-img img{
@@ -46,11 +48,11 @@ border-radius:10px;
 }
 
 .hero-text span{
-color:#ff7a59;
+color:yellow;
 }
 
 .btn{
-background:#ff7a59;
+background:#ff9800;
 padding:12px 25px;
 border-radius:25px;
 color:white;
@@ -62,10 +64,6 @@ text-decoration:none;
 
 section{
 padding:60px;
-margin:40px;
-background:white;
-border-radius:15px;
-box-shadow:0 8px 20px rgba(0,0,0,0.08);
 text-align:center;
 }
 
@@ -79,31 +77,31 @@ flex-wrap:wrap;
 }
 
 .skill-card{
-background:#fff5f0;
+background:white;
 padding:20px;
 margin:10px;
 border-radius:10px;
-box-shadow:0 5px 10px rgba(0,0,0,0.1);
+box-shadow:0 5px 10px rgba(0,0,0,0.2);
 }
 
 
 /* PROJECTS */
 
 .project-card{
-background:#fff5f0;
+background:white;
 margin:20px auto;
 padding:20px;
 width:60%;
 border-radius:10px;
-box-shadow:0 5px 10px rgba(0,0,0,0.1);
+box-shadow:0 5px 10px rgba(0,0,0,0.2);
 }
 
 
 /* FOOTER */
 
 footer{
-background:white;
+background:#222;
+color:white;
 text-align:center;
 padding:20px;
-margin-top:40px;
 }
