@@ -1,33 +1,8 @@
 body{
 margin:0;
-font-family:Segoe UI;
-background:#f4f4f4;
-}
-
-
-/* NAVBAR */
-
-nav{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px 60px;
-background:#222;
+font-family:Arial;
+background:linear-gradient(to right,#134e5e,#71b280);
 color:white;
-}
-
-nav ul{
-display:flex;
-list-style:none;
-}
-
-nav ul li{
-margin-left:20px;
-}
-
-nav ul li a{
-color:white;
-text-decoration:none;
 }
 
 
@@ -38,70 +13,46 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:80px;
-background:linear-gradient(120deg,#2980b9,#6dd5fa);
-color:white;
 }
 
-.hero-img img{
-width:350px;
-border-radius:10px;
+.hero-text h1{
+font-size:48px;
 }
 
-.hero-text span{
-color:yellow;
+.hero-text p{
+font-size:22px;
+margin-bottom:20px;
 }
 
 .btn{
 background:#ff9800;
 padding:12px 25px;
-border-radius:25px;
 color:white;
 text-decoration:none;
+border-radius:25px;
+font-weight:bold;
+}
+
+.hero-image img{
+width:350px;
+border-radius:10px;
 }
 
 
 /* SECTIONS */
 
 section{
-padding:60px;
-text-align:center;
-}
-
-
-/* SKILLS */
-
-.skill-container{
-display:flex;
-justify-content:center;
-flex-wrap:wrap;
-}
-
-.skill-card{
 background:white;
-padding:20px;
-margin:10px;
-border-radius:10px;
-box-shadow:0 5px 10px rgba(0,0,0,0.2);
+color:black;
+margin:40px;
+padding:40px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
 
-
-/* PROJECTS */
-
-.project-card{
-background:white;
-margin:20px auto;
-padding:20px;
-width:60%;
-border-radius:10px;
-box-shadow:0 5px 10px rgba(0,0,0,0.2);
-}
-
-
-/* FOOTER */
 
 footer{
-background:#222;
-color:white;
+background:black;
 text-align:center;
 padding:20px;
 }
