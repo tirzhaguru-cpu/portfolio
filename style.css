@@ -1,11 +1,12 @@
 body{
 margin:0;
-font-family: 'Segoe UI', sans-serif;
-background: linear-gradient(to right,#1f4037,#99f2c8);
+font-family:'Segoe UI',sans-serif;
+background:linear-gradient(to right,#1f4037,#99f2c8);
 color:#333;
 }
 
-/* HERO SECTION */
+
+/* HERO */
 
 .hero{
 display:flex;
@@ -32,11 +33,6 @@ padding:12px 25px;
 text-decoration:none;
 border-radius:30px;
 font-weight:bold;
-transition:0.3s;
-}
-
-.btn:hover{
-background:#e68900;
 }
 
 .hero-img img{
@@ -45,7 +41,8 @@ border-radius:15px;
 box-shadow:0 10px 30px rgba(0,0,0,0.4);
 }
 
-/* SECTION STYLE */
+
+/* SECTIONS */
 
 section{
 padding:60px;
@@ -54,6 +51,7 @@ background:white;
 border-radius:15px;
 box-shadow:0 10px 30px rgba(0,0,0,0.2);
 }
+
 
 /* SKILLS */
 
@@ -65,6 +63,7 @@ border-left:6px solid #ff9800;
 border-radius:6px;
 }
 
+
 /* PROJECTS */
 
 .project{
@@ -75,12 +74,14 @@ border-left:6px solid #4CAF50;
 border-radius:6px;
 }
 
+
 /* CONTACT */
 
 .contact p{
 font-size:18px;
 margin:8px 0;
 }
+
 
 /* FOOTER */
 
