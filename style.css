@@ -1,8 +1,7 @@
 body{
 margin:0;
-font-family:'Segoe UI',sans-serif;
-background:linear-gradient(to right,#1f4037,#99f2c8);
-color:#333;
+font-family:Arial;
+background:linear-gradient(to right,#134e5e,#71b280);
 }
 
 
@@ -10,86 +9,51 @@ color:#333;
 
 .hero{
 display:flex;
-align-items:center;
 justify-content:space-between;
+align-items:center;
 padding:80px;
-color:white;
+background:white;
+margin:40px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
 
 .hero-text h1{
-font-size:48px;
-margin-bottom:10px;
+font-size:40px;
 }
 
 .hero-text p{
-font-size:22px;
-margin-bottom:20px;
+font-size:20px;
 }
 
 .btn{
 background:#ff9800;
-color:white;
 padding:12px 25px;
+color:white;
 text-decoration:none;
-border-radius:30px;
-font-weight:bold;
+border-radius:25px;
 }
 
-.hero-img img{
+.hero-image img{
 width:350px;
-border-radius:15px;
-box-shadow:0 10px 30px rgba(0,0,0,0.4);
+border-radius:10px;
 }
 
 
 /* SECTIONS */
 
 section{
-padding:60px;
-margin:40px;
 background:white;
+margin:40px;
+padding:40px;
 border-radius:15px;
-box-shadow:0 10px 30px rgba(0,0,0,0.2);
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
 
-
-/* SKILLS */
-
-.box{
-background:#f7f7f7;
-padding:20px;
-margin:15px 0;
-border-left:6px solid #ff9800;
-border-radius:6px;
-}
-
-
-/* PROJECTS */
-
-.project{
-background:#f7f7f7;
-padding:20px;
-margin:15px 0;
-border-left:6px solid #4CAF50;
-border-radius:6px;
-}
-
-
-/* CONTACT */
-
-.contact p{
-font-size:18px;
-margin:8px 0;
-}
-
-
-/* FOOTER */
 
 footer{
 background:black;
 color:white;
 text-align:center;
 padding:20px;
-margin-top:40px;
-font-size:16px;
 }
